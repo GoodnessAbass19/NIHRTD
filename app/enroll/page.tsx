@@ -74,6 +74,24 @@ const page = () => {
               />
             </div>
           </div>
+
+          <div className="space-y-6">
+            <span className="text-2xl font-bold uppercase">
+              upload your credentials
+            </span>
+            <div className="shadow-md shadow-gray-300 rounded-lg p-5">
+              <label className="text-xl font-normal">
+                Your Highest Credentials
+              </label>
+              <div className=" flex flex-row items-center gap-y-3 border-b-2 border-gray-300 py-2 w-full">
+                <input
+                  type="text"
+                  className=" bg-transparent border-0 text-xl text-gray-500 w-full focus:outline-0"
+                  name="address"
+                />
+              </div>
+            </div>
+          </div>
         </form>
       </div>
     </div>
