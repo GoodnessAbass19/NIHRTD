@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const page = () => {
   return (
@@ -18,7 +19,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto p-5 grid md:grid-cols-2 gap-10 py-20 items-center">
+      <div className="max-w-7xl mx-auto p-5 grid lg:grid-cols-2 gap-10 py-20 items-center">
         <div>
           <Image
             src={"/Rectangle 8.png"}
@@ -29,7 +30,7 @@ const page = () => {
           />
         </div>
         <div className="space-y-10">
-          <p className="text-xl font-medium">
+          <p className=" font-normal text-base xl:text-lg ">
             NIHRTD is an institute that guides and provides a medium of exposure
             as regards the acquisition of technical skills through a structured
             learning and working system that will expose graduates to
@@ -37,7 +38,7 @@ const page = () => {
             technical skills learnt will be put to work. It also provides
             advocacy for best practices in organisations.
           </p>
-          <p className="text-xl font-medium">
+          <p className=" font-normal text-base xl:text-lg">
             The programmes are practical, participants will just have to
             complete a series of syllabuses and exchange programmes as required.
             It is a confirmation of KSA (Knowledge, Skill and Ability), and fit
@@ -46,8 +47,26 @@ const page = () => {
             are expected to go through an assessment programme to evaluate
             comprehension and ability of the concept before receiving a
             certificate of attendance and/or taking international certification
-            examinations.v
+            examinations.
           </p>
+          <div className=" flex flex-col items-center gap-y-5">
+            <h3 className=" text-lg lg:text-2xl xl:text-3xl capitalize font-semibold text-center">
+              Who Should Attend
+            </h3>
+            <p className=" font-normal text-base xl:text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              aliquam beatae molestiae? Laudantium labore esse alias eligendi,
+              reiciendis temporibus adipisci, dolorum beatae quaerat nam
+              incidunt saepe eaque atque tempora recusandae. Sequi, veniam
+              repudiandae iure sunt libero necessitatibus. Qui, suscipit
+              eveniet.
+            </p>
+            <Link href="/enroll">
+              <button className="text-sm bg-[#2F6790]/90 py-2 px-5 rounded-md text-white lg:text-base xl:text-lg hover:bg-[#2F6790] hover:shadow-lg">
+                Click to start your admission process
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
