@@ -7,8 +7,8 @@ import Footer from "./components/layouts/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "NIHRTD",
-  description: "Technical Skilll Training & Career Accelerator.",
+title: "NIGERIA INSTITUTE OF HUMAN RESOURCES AND TECHNICAL DEVELOPMENT",
+description: "NIGERIA INSTITUTE OF HUMAN RESOURCES AND TECHNICAL DEVELOPMENT",
 };
 
 export default function RootLayout({
